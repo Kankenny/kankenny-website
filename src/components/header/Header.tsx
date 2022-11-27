@@ -1,7 +1,11 @@
 import React from 'react'
 
 function Header() {
-	return <div>I am a header</div>
+	let x: number = 5
+
+	x = x + 5
+
+	return <div>I am a header {x}</div>
 }
 
 export default Header
