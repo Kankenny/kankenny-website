@@ -12,9 +12,12 @@ import Error404 from './layout/Error404'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 
+// Containers
+import AppContainer from './AppContainer'
+
 function App() {
 	return (
-		<div className="h-screen bg-red-500 text-5xl flex flex-col justify-between">
+		<AppContainer>
 			<Header />
 			<Routes>
 				Hello World!
@@ -24,7 +27,7 @@ function App() {
 				<Route path="*" element={<Error404 />}></Route>
 			</Routes>
 			<Footer />
-		</div>
+		</AppContainer>
 	)
 }
 
