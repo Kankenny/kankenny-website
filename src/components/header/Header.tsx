@@ -1,11 +1,16 @@
 import React from 'react'
 
+// Essentials
+import Banner from './Banner'
+import Menu from './Menu'
+
 function Header() {
-	let x: number = 5
-
-	x = x + 5
-
-	return <div>I am a header {x}</div>
+	return (
+		<div className="w-full relative">
+			<Menu />
+			<Banner />
+		</div>
+	)
 }
 
 export default Header
