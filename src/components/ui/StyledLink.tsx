@@ -1,7 +1,7 @@
 import React from 'react'
 
 function StyledLink({ linkText }) {
-	const activeLinkClasses = `text-sm font-bold md:text-xl md:font-thin bg-secondary rounded-full text-black px-4 py-2 group transition-all duration-200 ease-in-out cursor-pointer select-none`
+	const activeLinkClasses = `text-sm font-bold md:text-xl md:font-thin bg-secondary rounded-full text-black group transition-all duration-200 ease-in-out cursor-pointer select-none`
 
 	// const inactiveLinkClasses = `text-sm group transition-all duration-200 ease-in-out `
 
