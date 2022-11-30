@@ -2,7 +2,7 @@ import React from 'react'
 
 function AppContainer({ children }) {
 	return (
-		<div className="h-screen bg-red-500 text-5xl flex flex-col justify-between">
+		<div className="h-screen bg-red-500 flex flex-col justify-between">
 			{children}
 		</div>
 	)
