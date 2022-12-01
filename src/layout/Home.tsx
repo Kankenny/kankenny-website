@@ -3,14 +3,14 @@ import React from 'react'
 // Essentials
 import Divider from '../components/ui/Divider'
 import DividerOffSet from '../components/ui/DividerOffSet'
-import Highlight from '../components/highlight/Highlight'
+import ProjectsHighlight from '../components/highlight/ProjectsHighlight'
 
 function Home() {
 	return (
-		<div className="bg-red-500 relative">
+		<div className="bg-slate-200 relative">
 			<Divider />
 			<DividerOffSet />
-			<Highlight/>
+			<ProjectsHighlight />
 		</div>
 	)
 }
