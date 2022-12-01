@@ -1,8 +1,9 @@
 import React from 'react'
 
 // Essentials
-import Title from '../ui/Title'
+import Title from '../../ui/Title'
 import HighlightDescription from './HighlightDescription'
+import ViewMore from './ViewMore'
 
 function HighlightOverview() {
 	return (
@@ -17,6 +18,7 @@ function HighlightOverview() {
 				molestiae sunt quidem placeat, tenetur ullam, deleniti
 				voluptate maxime, assumenda laborum.
 			</HighlightDescription>
+			<ViewMore />
 		</div>
 	)
 }

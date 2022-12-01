@@ -8,7 +8,7 @@ function StyledLink({ linkText }) {
 	return (
 		<div className={activeLinkClasses}>
 			<span
-				className={`bg-left-bottom bg-gradient-to-r bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out text-black from-black to-black `}
+				className={`bg-left-bottom bg-gradient-to-r bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out text-black from-black to-black`}
 			>
 				{linkText}
 			</span>
