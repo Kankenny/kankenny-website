@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.custom-shape-divider-top-1669789314 {
+// Rework repetitions
+
+.custom-shape-divider-top-spring {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -11,7 +13,7 @@
 	line-height: 0;
 }
 
-.custom-shape-divider-top-1669789314 svg {
+.custom-shape-divider-top-spring svg {
 	position: relative;
 	display: block;
 	width: calc(150% + 1.3px);
@@ -19,6 +21,69 @@
 	transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1669789314 .shape-fill {
+.custom-shape-divider-top-spring .shape-fill {
 	fill: #8f35ea;
+}
+
+.custom-shape-divider-top-summer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.custom-shape-divider-top-summer svg {
+	position: relative;
+	display: block;
+	width: calc(150% + 1.3px);
+	height: 130px;
+	transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-summer .shape-fill {
+	fill: #ea580b;
+}
+
+.custom-shape-divider-top-fall {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.custom-shape-divider-top-fall svg {
+	position: relative;
+	display: block;
+	width: calc(150% + 1.3px);
+	height: 130px;
+	transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-fall .shape-fill {
+	fill: #ef4443;
+}
+
+.custom-shape-divider-top-winter {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.custom-shape-divider-top-winter svg {
+	position: relative;
+	display: block;
+	width: calc(150% + 1.3px);
+	height: 130px;
+	transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-winter .shape-fill {
+	fill: #000000;
 }

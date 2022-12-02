@@ -1,16 +1,11 @@
 import React from 'react'
 
 // Essentials
-import Banner from './Banner'
+import SpringBanner from '../ui/SpringBanner'
 import Menu from './Menu'
 
 function Header() {
-	return (
-		<div className="w-full relative">
-			<Menu />
-			<Banner />
-		</div>
-	)
+	return <Menu />
 }
 
 export default Header

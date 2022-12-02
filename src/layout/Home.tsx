@@ -1,16 +1,26 @@
 import React from 'react'
 
 // Essentials
-import Divider from '../components/ui/Divider'
-import DividerOffSet from '../components/ui/DividerOffSet'
 import ProjectsHighlight from '../components/highlight/ProjectsHighlight'
+import AcademicsHighlight from '../components/highlight/AcademicsHighlight'
+import HobbiesHighlight from '../components/highlight/HobbiesHighlight'
+import ContactsHighlight from '../components/highlight/ContactsHighlight'
+import SpringBanner from '../components/ui/banners/SpringBanner'
+import SummerBanner from '../components/ui/banners/SummerBanner'
+import FallBanner from '../components/ui/banners/FallBanner'
+import WinterBanner from '../components/ui/banners/WinterBanner'
 
 function Home() {
 	return (
-		<div className="bg-slate-200 relative">
-			<Divider />
-			<DividerOffSet />
+		<div className="bg-slate-200">
+			<SpringBanner />
 			<ProjectsHighlight />
+			<SummerBanner />
+			<AcademicsHighlight />
+			<FallBanner />
+			<HobbiesHighlight />
+			<WinterBanner />
+			<ContactsHighlight />
 		</div>
 	)
 }
