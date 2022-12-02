@@ -1,18 +1,18 @@
 import React from 'react'
 
 // Essentials
-import Highlight from './highlight-template/Highlight'
 import Divider from '../ui/Divider'
 import DividerOffSet from '../ui/DividerOffSet'
+import Highlight from './highlight-template/Highlight'
 
-function AcademicsHighlight() {
+function ContactsHighlight() {
 	return (
 		<div className="w-full relative">
-			<Divider season="summer" />
+			<Divider season="winter" />
 			<DividerOffSet />
 			<Highlight />
 		</div>
 	)
 }
 
-export default AcademicsHighlight
+export default ContactsHighlight
