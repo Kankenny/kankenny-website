@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-// Rework repetitions
+/* Rework repetitions */
 
 .custom-shape-divider-top-spring {
 	position: absolute;
