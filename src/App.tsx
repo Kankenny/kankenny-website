@@ -22,6 +22,7 @@ function App() {
 			<Routes>
 				Hello World!
 				<Route path="/" element={<Home />}></Route>
+				<Route path="/home" element={<Home />}></Route>
 				<Route path="/contact" element={<Contact />}></Route>
 				<Route path="/projects" element={<Projects />}></Route>
 				<Route path="*" element={<Error404 />}></Route>
