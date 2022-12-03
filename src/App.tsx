@@ -20,7 +20,7 @@ function App() {
 		<AppContainer>
 			<Header />
 			<Routes>
-				Hello World!
+				Hello World! Still in development
 				<Route path="/" element={<Home />}></Route>
 				<Route path="/home" element={<Home />}></Route>
 				<Route path="/contact" element={<Contact />}></Route>
