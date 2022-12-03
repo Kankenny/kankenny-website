@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kankenny-website/static/css/main.63a3539b.css",
-    "main.js": "/kankenny-website/static/js/main.393c9ded.js",
+    "main.js": "/kankenny-website/static/js/main.6bfe896a.js",
     "index.html": "/kankenny-website/index.html",
     "main.63a3539b.css.map": "/kankenny-website/static/css/main.63a3539b.css.map",
-    "main.393c9ded.js.map": "/kankenny-website/static/js/main.393c9ded.js.map"
+    "main.6bfe896a.js.map": "/kankenny-website/static/js/main.6bfe896a.js.map"
   },
   "entrypoints": [
     "static/css/main.63a3539b.css",
-    "static/js/main.393c9ded.js"
+    "static/js/main.6bfe896a.js"
   ]
 }
